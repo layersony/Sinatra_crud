@@ -18,5 +18,6 @@ by a separate **React frontend** that interacts with the database via the API.
 ## Resources
 
 [Postman Documentration]: https://documenter.getpostman.com/view/21461670/2s93CSoAX5
-[Repo]:
-[dbdiagram.io]: 
+[Repo]: https://github.com/layersony/Sinatra_crud
+[dbdiagram.io]: https://dbdiagram.io/d/631277800911f91ba526cc0a
+
