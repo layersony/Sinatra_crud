@@ -22,7 +22,6 @@ u1 = User.create(
 
 # create event instance
 e1 = Event.create(
-  content: "Hello, world"
   user_id: u1.id,
   hackathon_id: h1.id
 )
