@@ -12,6 +12,10 @@
 
 ActiveRecord::Schema.define(version: 2023_02_28_122734) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+  enable_extension "timescaledb"
+
   create_table "events", force: :cascade do |t|
     t.integer "user_id"
     t.integer "hackathon_id"
